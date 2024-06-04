@@ -20,7 +20,7 @@ def test_obchodni_podminky(page: Page) -> None:
 
 
 # test registrace:
-def test_example(page: Page) -> None:
+def test_registrace(page: Page) -> None:
     """
     Tento test:
     1. Otevře stránku https://www.pinoys.cz/customer/registration/.
@@ -36,7 +36,7 @@ def test_example(page: Page) -> None:
 
 
 # test rating:
-def test_example(page: Page) -> None:
+def test_rating(page: Page) -> None:
     """
     Tento test  se pokusí otevřít odkaz "https://www.pinoys.cz/customer/rating/" a ověří, že se do této sekce nelze dostat bez přihlášení = uživatel bude přesměrován na přihlašovací formulář.
     """
@@ -47,7 +47,7 @@ def test_example(page: Page) -> None:
 
 
 # test košík:
-def test_example(page: Page) -> None:
+def test_kosik(page: Page) -> None:
     """
     Tento test:
     1. Otevře stránku https://www.pinoys.cz/.
